@@ -1,0 +1,28 @@
+name: PS TEST
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ master ]
+    paths:
+      - PSTest/**
+      - .github/workflows/ps-test.yml
+jobs:
+  PSTest:
+    runs-on: windows-2019
+    steps:
+      - uses: actions/checkout@v2
+      - uses: microsoft/setup-msbuild@v1.1
+      - uses: nuget/setup-nuget@v1
+
+      - name: Nuget Restore
+        run: |
+          nuget restore ./PSTest/PSTest.sln
+
+      - name: Build Solution
+        run: |
+          msbuild ./PSTest/PSTest.sln -property:Configuration=Release
+
+      - name: Run PSTest
+        run: |
+          ./PSTest/PSTest/bin/Release/PSTest.exe

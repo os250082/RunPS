@@ -1,0 +1,8 @@
+C:\GitHub\RunPS\PSTest\PSTest\bin\Debug\PSTest.exe.config
+C:\GitHub\RunPS\PSTest\PSTest\bin\Debug\PSTest.exe
+C:\GitHub\RunPS\PSTest\PSTest\bin\Debug\PSTest.pdb
+C:\GitHub\RunPS\PSTest\PSTest\obj\Debug\PSTest.csproj.AssemblyReference.cache
+C:\GitHub\RunPS\PSTest\PSTest\obj\Debug\PSTest.csproj.SuggestedBindingRedirects.cache
+C:\GitHub\RunPS\PSTest\PSTest\obj\Debug\PSTest.csproj.CoreCompileInputs.cache
+C:\GitHub\RunPS\PSTest\PSTest\obj\Debug\PSTest.exe
+C:\GitHub\RunPS\PSTest\PSTest\obj\Debug\PSTest.pdb
