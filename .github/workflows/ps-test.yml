@@ -3,7 +3,7 @@ name: PS TEST
 on:
   workflow_dispatch:
   push:
-    branches: [ master ]
+    branches: [ main ]
     paths:
       - PSTest/**
       - .github/workflows/ps-test.yml
